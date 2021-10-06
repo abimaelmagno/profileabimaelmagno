@@ -1,0 +1,85 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+
+body {
+  background-color: #f6f9fc;
+  font-family: 'Poppins', serif;
+}
+
+img {
+  width: 200px;
+}
+
+h1 {
+  color: #633225;
+  font-size: 32px;
+  font-weight: 900;
+  font-family: 'Poppins', serif;
+}
+
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #8f2003;
+}
+
+a {
+  
+  text-decoration: none;
+  color: #6b2525;
+  font-weight: 600;
+  font-family: Poppins, serif;
+}
+
+a:hover {
+  background-color: rgb(172, 170, 22);
+}
+
+#foto {
+  border-radius: 50%;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card-begin {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  display: inline-block;
+}
+.card-middle {
+  text-align: center;
+  background: rgb(170, 165, 165);
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+.card-end {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.card-end li {
+  display: inline-block;
+  margin: 8px;
+}
+
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
